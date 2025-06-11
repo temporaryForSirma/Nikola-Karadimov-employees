@@ -1,0 +1,65 @@
+.MainContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Title {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.CSVForm {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ProjectsTable {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    width: 50vw;
+    margin-top: 2rem;
+}
+.TableHeadRow,.TableDataRow {
+    display: flex;
+    flex-direction: row;
+    background: #363a40;
+    color: #fff;
+    padding: 2rem 2rem;
+    margin-bottom: 0.7rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    box-shadow: 0px 5px 12px -12px rgba(0, 0, 0, 0.29);
+}
+.TableDataRow {
+    background: #fff;
+    color: #363a40;
+}
+.TableHeadCol, .TableDataCol {
+    display: flex;
+    flex-direction: column;
+    min-width: 11vw;
+    padding-right: 1vw;
+}
+.UploadButton {
+    padding: 1rem;
+}
+.UploadButton::file-selector-button {
+    background: #363a40;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+.ImportButton {
+    background: #363a40;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    height: 3.3rem;
+    cursor: pointer;
+}
